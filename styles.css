@@ -103,6 +103,9 @@ border-bottom: 4px solid #be49c6ff;
 
 text-align: center;
 
+position: sticky;
+
+top: 0;
 }
 
 header h1 {
