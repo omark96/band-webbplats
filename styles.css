@@ -65,6 +65,22 @@ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 
 } 
 
+@keyframes move {
+   from {
+    transform: scale(100%);
+  }
+
+  to {
+    transform: scale(110%);
+  }
+}
+
+h2:hover {
+    animation-name: move;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
 /* ===================================
 
 HEADER & NAVIGATION
